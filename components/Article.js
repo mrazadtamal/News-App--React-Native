@@ -5,12 +5,14 @@ const Article = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Text>Azad</Text>
+      <Text>Azad</Text>
       <Image
         style={styles.image}
         source={{
           uri: "https://res.cloudinary.com/abidazad/image/upload/v1656177254/pexels-victor-freitas-841130_1_fa9j0v.jpg",
         }}
       />
+      <Text>Azad</Text>
       <Image
         style={styles.image}
         source={{
@@ -21,6 +23,12 @@ const Article = () => {
         style={styles.image}
         source={{
           uri: "https://res.cloudinary.com/abidazad/image/upload/v1656176833/man-4594401_1280_pgdx7g.jpg",
+        }}
+      />
+      <Image
+        style={styles.image}
+        source={{
+          uri: "https://res.cloudinary.com/abidazad/image/upload/v1654427028/kids-2835430_1280_f4vtbd.jpg",
         }}
       />
     </SafeAreaView>

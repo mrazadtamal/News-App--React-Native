@@ -17,12 +17,6 @@ const Article = () => {
           uri: "https://res.cloudinary.com/abidazad/image/upload/v1656177041/pexels-cesar-gale%C3%A3o-3253501_1_ieuyar.jpg",
         }}
       />
-      <Image
-        style={styles.image}
-        source={{
-          uri: "https://res.cloudinary.com/abidazad/image/upload/v1656176833/man-4594401_1280_pgdx7g.jpg",
-        }}
-      />
     </SafeAreaView>
   );
 };

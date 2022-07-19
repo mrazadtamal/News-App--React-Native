@@ -1,9 +1,10 @@
 import { StyleSheet, Text, View, StatusBar } from "react-native";
+import InShortTabs from "./components/InShortTabs";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>azad</Text>
+      <InShortTabs />
       <StatusBar style="auto" />
     </View>
   );
